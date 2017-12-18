@@ -13,12 +13,7 @@ puts string
   end
 end
 
-def take_a_number(arr,str)
-  if arr == []
-    arr.push(str)
-    puts "Welcome, #{str}. You are number 1 in line."
-  else
-  arr.push(str)
-end
-arr
+def take_a_number(katz_deli, name)
+  katz_deli << name
+  puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
