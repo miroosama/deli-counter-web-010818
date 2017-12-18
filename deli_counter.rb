@@ -19,4 +19,5 @@ def take_a_number(arr,str)
   else
   arr.push(str)
 end
+arr
 end
