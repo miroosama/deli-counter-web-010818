@@ -17,17 +17,5 @@ def take_a_number(arr,str)
   if arr == []
     arr.push(str)
     puts "Welcome, #{str}. You are number 1 in line."
-  else
-    in_line = arr.size
-  people = 0
-
-loop do
-      if in_line < arr.size
-
-          puts "Welcome #{str}"
-          people += 1
-
-      end
 end
-
 end
