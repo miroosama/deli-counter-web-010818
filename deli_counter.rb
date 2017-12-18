@@ -15,6 +15,8 @@ end
 
 def take_a_number(arr,str)
   if arr == []
-  arr.push(str)
+    arr.push(str)
+    puts "Welcome, #{str}. You are number 1 in line."
 end
+
 end
