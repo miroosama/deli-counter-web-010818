@@ -24,5 +24,5 @@ def take_a_number(arr,str)
   end
   puts string
 end
-
+end
 end
