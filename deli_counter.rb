@@ -30,6 +30,6 @@ def take_a_number(arr,str)
           break
       end
   end
-end
-end
+
+
 end
