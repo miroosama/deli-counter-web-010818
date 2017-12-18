@@ -22,6 +22,6 @@ def take_a_number(arr,str)
       arr.push(str)
     string = "Welcome #{i}. You are number #{arr.index(i)+1} in line."
   end
-  puts string
+
 end
 end
