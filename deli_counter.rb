@@ -18,10 +18,9 @@ def take_a_number(arr,str)
     arr.push(str)
     puts "Welcome, #{str}. You are number 1 in line."
   else
-    arr.push(str)
     arr.each do |i|
-    string = "Welcome #{i}. You are number #{arr.index(i)+1} in line."
-  end
-puts string
+    string = "Welcome #{i}. You are number #{arr.index(i)+1} in line. "
+    arr.push(str)
 end
+
 end
